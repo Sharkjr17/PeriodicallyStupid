@@ -1,0 +1,49 @@
+{
+  "elements": {
+    "1": {
+      "name": "Hydrogen",
+      "symbol": "H",
+      "atomic_number": 1,
+      "atomic_mass": 1.008,
+      "group": 1,
+      "period": 1,
+      "category": "Nonmetal"
+    },
+    "2": {
+      "name": "Helium",
+      "symbol": "He",
+      "atomic_number": 2,
+      "atomic_mass": 4.0026,
+      "group": 18,
+      "period": 1,
+      "category": "Noble gas"
+    },
+    "3": {
+      "name": "Lithium",
+      "symbol": "Li",
+      "atomic_number": 3,
+      "atomic_mass": 6.94,
+      "group": 1,
+      "period": 2,
+      "category": "Alkali metal"
+    },
+    "4": {
+      "name": "Beryllium",
+      "symbol": "Be",
+      "atomic_number": 4,
+      "atomic_mass": 9.0122,
+      "group": 2,
+      "period": 2,
+      "category": "Alkaline earth metal"
+    },
+    "5": {
+      "name": "Boron",
+      "symbol": "B",
+      "atomic_number": 5,
+      "atomic_mass": 10.81,
+      "group": 13,
+      "period": 2,
+      "category": "Metalloid"
+    }
+  }
+}

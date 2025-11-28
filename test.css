@@ -1,0 +1,45 @@
+/* test.css - Styling for SimulationApp with fixed proportions */
+
+Screen {
+    layout: horizontal;
+}
+
+#info {
+    width: 60%;
+    height: 100%;
+    border: solid green;
+    padding: 1;
+    overflow: auto;        /* enable scrolling if content overflows */
+}
+
+
+#right-side {
+    width: 40%;
+    layout: vertical;
+    height: 100%;          /* full viewport height */
+}
+
+#selector {
+    border: solid blue;
+    padding: 1;
+    height: 75%;
+    overflow: auto;        /* scroll if too many buttons */
+}
+
+
+#resources {
+    border: solid magenta;
+    padding: 1;
+    height: 25%;
+    overflow: auto;        /* scroll if resource text grows too long */
+}
+
+
+/* Button styling: long and thin */
+Button {
+    width: 100%;          /* stretch across container */
+    padding: 0 0;         /* less vertical padding, more horizontal */
+    margin: 0 0;          /* vertical spacing between buttons */
+    border: solid cyan;   /* optional: visible outline */
+    text-align: center;   /* keep text centered */
+}
